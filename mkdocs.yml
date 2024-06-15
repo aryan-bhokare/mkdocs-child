@@ -1,6 +1,5 @@
+site_name: My Docs
 edit_uri: /blob/master/
-
-site_name: test
 
 nav:
   - Home: index.md
