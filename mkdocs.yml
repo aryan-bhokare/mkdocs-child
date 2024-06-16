@@ -1,10 +1,15 @@
-site_name: My Docs
-edit_uri: /blob/master/
+site_name: top_secret_repos/top-secret-repo-two
+
+docs_dir: ./docs
 
 nav:
-  - Home: index.md
-  - Page1: page1.md
-  - Page2: page2.md
+  - Home1: "index.md"
+  - More Docs:
+      - Page1: "page1.md"
+      - Page2: "page2.md"
+
+theme:
+  name: "material"
 
 plugins:
   - mkdocstrings
